@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "name": "talk-video-studio",
+    "displayName": {
+      "zh": "演讲视频工坊",
+      "en": "Talk Video Studio"
+    },
+    "version": "1.0.0",
+    "source": "git-sync",
+    "active": true,
+    "deleted": false,
+    "usageExample": "把这篇文章做成一个会讲话的讲解视频：左边播 PPT，右边一个 AI 数字人讲师出镜讲解，带字幕，大概两分钟。"
+  },
+  "storage": {
+    "packageKey": "skills/talk-video-studio/talk-video-studio_1.0.0.zip"
+  },
+  "media": {
+    "examples": [
+      {
+        "path": "assets/examples/climate-warming-talk.mp4",
+        "sourceKey": "skills/examples/talk-video-studio/climate-warming-talk.mp4",
+        "name": "climate-warming-talk.mp4",
+        "mimeType": "video/mp4",
+        "label": "气候变暖演讲成片（左 PPT + 右数字人 + 字幕，80s）"
+      }
+    ],
+    "previews": [
+      {
+        "path": "assets/previews/0.webp",
+        "sourceKey": "skills/previews/talk-video-studio/0.webp"
+      },
+      {
+        "path": "assets/previews/1.webp",
+        "sourceKey": "skills/previews/talk-video-studio/1.webp"
+      },
+      {
+        "path": "assets/previews/2.webp",
+        "sourceKey": "skills/previews/talk-video-studio/2.webp"
+      },
+      {
+        "path": "assets/previews/3.webp",
+        "sourceKey": "skills/previews/talk-video-studio/3.webp"
+      }
+    ]
+  }
+}
